@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #63686A; /* #88A8F7 azul bonito*/
+    background: black; /* #88A8F7 azul bonito*/
 }
 
 .container {
@@ -24,8 +24,8 @@ body {
   transform: translateX(-50%);
   font-size: 64px; /* Tamaño del texto aumentado */
   opacity: 0; /* Transparencia inicial */
-  animation: gravity 4s cubic-bezier(0.55, 0, 0.1, 1) forwards, rotate-colors 10s linear infinite;
-  background: linear-gradient(125deg, red, orange, yellow, green, blue, indigo, violet);
+  animation: gravity 4s cubic-bezier(0.55, 0, 0.1, 1) forwards, rotate-colors 3s linear infinite;
+  background: linear-gradient(125deg, red, orange, yellow, green);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
