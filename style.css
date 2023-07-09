@@ -36,8 +36,12 @@ body {
   text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 8px #0fa, 0 0 16px #0fa, 0 0 18px #0fa;
 }
 
+.gravity-text:not(:hover) {
+  animation: smoothout 0.3s forwards, gravity 4s cubic-bezier(0.55, 0, 0.1, 1) forwards, rotate-colors 1s linear infinite;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 4px #0fa, 0 0 8px #0fa, 0 0 9px #0fa;
+}
+
 .gravity-text::after {
-  transition: smoothout 0.3s ease-out;
   content: "";
   position: absolute;
   top: 0;
